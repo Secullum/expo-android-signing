@@ -1,17 +1,17 @@
-# @secullum/expo-android-signing
+# expo-android-signing
 
 Expo Config Plugin para configurar assinatura Android localmente com keystore customizada.
 
 ## Instalação
 
 ```bash
-yarn add @secullum/expo-android-signing
+yarn add expo-android-signing
 ```
 
 ou
 
 ```bash
-npm install @secullum/expo-android-signing
+npm install expo-android-signing
 ```
 
 ## Uso
@@ -23,7 +23,7 @@ No seu `app.json` ou `app.config.js`:
   "expo": {
     "plugins": [
       [
-        "@secullum/expo-android-signing",
+        "expo-android-signing",
         {
           "keystorePath": "../../caminho/para/seu.keystore",
           "keyAlias": "seu-alias",
@@ -72,13 +72,13 @@ npm version major  # para 1.0.0 -> 2.0.0
 2. Publicar no npm:
 
 ```bash
-npm publish --access public
+npm publish
 ```
 
 3. Fazer push das tags para o repositório:
 
 ```bash
-git push && git push --tags
+git push --follow-tags
 ```
 
 ## Licença

@@ -1,5 +1,5 @@
 {
-  "name": "@secullum/expo-android-signing",
+  "name": "expo-android-signing",
   "version": "1.0.0",
   "description": "Expo Config Plugin for Android signing configuration",
   "main": "index.js",
@@ -13,5 +13,13 @@
   "license": "MIT",
   "peerDependencies": {
     "@expo/config-plugins": "^8.0.0 || ^9.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Secullum/expo-android-signing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Secullum/expo-android-signing/issues"
+  },
+  "homepage": "https://github.com/Secullum/expo-android-signing#readme"
 }

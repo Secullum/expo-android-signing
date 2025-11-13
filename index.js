@@ -7,19 +7,19 @@ module.exports = function withSigningConfigPlugin(config, options = {}) {
     let src = cfg.modResults.contents;
 
     if (!options.keystorePath) {
-      throw new Error("@secullum/expo-android-signing: 'keystorePath' é obrigatório");
+      throw new Error("expo-android-signing: 'keystorePath' é obrigatório");
     }
     
     if (!options.keyAlias) {
-      throw new Error("@secullum/expo-android-signing: 'keyAlias' é obrigatório");
+      throw new Error("expo-android-signing: 'keyAlias' é obrigatório");
     }
 
     if (!options.storePassword) {
-      throw new Error("@secullum/expo-android-signing: 'storePassword' é obrigatório");
+      throw new Error("expo-android-signing: 'storePassword' é obrigatório");
     }
 
     if (!options.keyPassword) {
-      throw new Error("@secullum/expo-android-signing: 'keyPassword' é obrigatório");
+      throw new Error("expo-android-signing: 'keyPassword' é obrigatório");
     }
 
     const KEYSTORE_REL = options.keystorePath;

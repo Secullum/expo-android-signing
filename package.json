@@ -1,0 +1,17 @@
+{
+  "name": "@secullum/expo-android-signing",
+  "version": "1.0.0",
+  "description": "Expo Config Plugin for Android signing configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "expo-config-plugin"
+  ],
+  "author": "secullum-softwares",
+  "license": "MIT",
+  "peerDependencies": {
+    "@expo/config-plugins": "^8.0.0 || ^9.0.0"
+  }
+}
